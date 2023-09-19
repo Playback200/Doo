@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.menu {
+  margin-right: 100px;
+  margin-left: 70px;
+}
+.menu a {
+  color: #383938;
+  text-align: right;
+  font-family: Roboto, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 11.05px;
+  letter-spacing: 0.663px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-right: 31px;
+}
+
+.btn {
+  color: #6e6d7a;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11.05px;
+  letter-spacing: 0.663px;
+  text-transform: uppercase;
+  padding: 15px 33px;
+  border-radius: 8px;
+  background: #f5f6f9;
+  border: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #383938;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 78px;
+  letter-spacing: 3.12px;
+}
+
+main {
+  text-align: center;
+}
+main a {
+  text-align: center;
+}
+main .apple {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.tasks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 132px;
+}
+.tasks .task-item {
+  border-left: 1px solid #edeef3;
+  padding-left: 51px;
+  padding-right: 51px;
+  font-family: Roboto, sans-serif;
+}
+.tasks .task-item > p {
+  width: 60%;
+}
+
+.section-two {
+  margin-top: 129px;
+}
+
+.title {
+  color: #383938;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52.65px;
+  letter-spacing: 1.56px;
+}
+
+.text {
+  color: #6e6d7a;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.25px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.photo {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.benefit-item {
+  margin-top: 129px;
+}
+
+.btn-second {
+  color: #6e6d7a;
+  background-color: white;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11.7px;
+  letter-spacing: 2.34px;
+  text-transform: uppercase;
+  padding: 24px 48px;
+  border-radius: 8px;
+  border: 1px solid #edeef3;
+  margin-top: 78px;
+}
+
+.features-list {
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.features-list .task-item {
+  width: 23%;
+}
+
+.button-container {
+  text-align: center;
+}
+
+footer {
+  border-top: 1px solid #edeef3;
+  padding: 90px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: start;
+}
+footer.container {
+  margin-top: 170px;
+}
+footer .footer-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 26px;
+}
+footer .footer-menu .name-menu {
+  color: #6e6d7a;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+}
+footer .footer-menu .menu-item {
+  color: #6e6d7a;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  text-decoration: none;
+}
+
+h6 {
+  color: #383938;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52.65px;
+  letter-spacing: 1.56px;
+  margin: 0;
+}
+
+.download-link-container {
+  text-align: center;
+}
+
+.advertising {
+  text-align: center;
+}
+
+.headers {
+  margin-top: 259px;
+}
+
+.headerr {
+  margin-bottom: 70px;
+}
